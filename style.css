@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.heading
+{
+   padding: 20px;
+   text-align: center;
+   border-bottom: 1px solid rgb(66, 48, 15);
+   
+}
+.heading h1
+{
+    color: rgb(248, 174, 36);
+}.start
+{
+    text-align: center;
+    font-size: 220px;
+    padding: 200px; 
+    color: rgb(248, 174, 36);
+}
+.play
+{
+    color: #aaa6a6;
+    cursor: pointer;
+    transition: .4s;
+}
+.play:hover
+{
+    color: rgb(248, 174, 36);
+    /* box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%); */
+}
+.levels
+{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 300px; 
+
+}
+.levels h1
+{
+    margin-top: 8px;
+    color: #818181;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.levels .btn
+{
+    
+    margin: 9px 0;
+    display: block;
+    padding: 26px;
+    font-size: 20px;
+    width: 300px;
+    color: #818181;
+    font-weight: 400;
+    border: 2px solid #818181;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: .4s;
+}
+.btn:hover
+{
+    color: rgb(220, 156, 37);
+    border: 2px solid  rgb(220, 156, 37);
+    box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%);
+}
+.chess-board
+{
+    background-color: rgb(8, 8, 8);
+    margin: auto;
+    margin-top: 10px;
+    border: 15px solid rgb(0, 0, 0);
+    height: 590px;
+    width: 590px;
+    display: grid;
+    box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%);
+}
+
+.chess-board .block
+{
+    padding: 10%;   
+    background-color: #999;
+}
+.queen
+{
+position: absolute;
+ transition: left 0.1s linear;
+ 
+}
+.content
+{
+    margin: auto;
+    width: 600px;
+}
+    .content .btn {
+        /* display:inline-flex */
+        /* margin :0 200px; */
+
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 38px;
+        width: 251px;
+        color: #818181;
+        font-weight: 400;
+        border: 2px solid #818181;
+        background-color: transparent;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 100px;
+        transition: .4s;
+    }
+    #back
+    {
+        margin-left: 11px;
+        margin-right:81px ;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+.hide
+{
+    display: none;
+}
