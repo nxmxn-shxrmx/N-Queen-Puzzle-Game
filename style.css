@@ -104,7 +104,6 @@ position: absolute;
     .content .btn {
         /* display:inline-flex */
         /* margin :0 200px; */
-
         margin-top: 10px;
         padding: 10px;
         font-size: 38px;
@@ -122,6 +121,13 @@ position: absolute;
     {
         margin-left: 11px;
         margin-right:81px ;
+    }
+    #check
+    {
+        position: relative;
+        /* transition:left .4s linear; */
+        left: 0;
+        right: 0;
     }
     * {
         margin: 0;
